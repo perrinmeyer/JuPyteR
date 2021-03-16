@@ -1,7 +1,2 @@
-test mybinder notebook
+Test JuPyteR IJulia Notebook
 
-does my new github ssh key work?? 
-
-maybe it does now?  or now ?
-
-no julia??? 
