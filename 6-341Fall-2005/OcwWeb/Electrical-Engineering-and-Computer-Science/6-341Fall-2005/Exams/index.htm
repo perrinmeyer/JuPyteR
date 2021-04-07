@@ -1,0 +1,821 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+
+    <head>
+
+
+        		
+
+
+                <title>MIT OpenCourseWare |
+
+
+                        Electrical Engineering and Computer Science | 6.341 Discrete-Time Signal Processing, Fall 2005 | Exams
+
+
+                </title>
+
+
+        
+
+
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+
+        	
+
+
+                <meta name="group" content="6-341Fall-2005" />
+
+
+                <meta name="subgroup" content="Exams" />
+
+
+        
+
+<!-- Begin Automatic Metadata Insertion -->
+
+<meta name="Title" content="Exams"/>
+
+<meta name="Description" content="The exams section contains exams for the course."/>
+
+<meta name="Author" content="Oppenheim, Alan"/>
+
+<meta name="Keyword" content="discrete time signals and systems,discrete-time processing of continuous-time signals,decimation,interpolation,sampling rate conversion,Flowgraph structures,time- and frequency-domain design techniques for recursive (IIR) and non-recursive (FIR) filters,linear prediction,Discrete Fourier transform,FFT algorithm,Short-time Fourier analysis and filter banks,Multirate techniques,Hilbert transforms,Cepstral analysis"/>
+
+<meta name="Version" content="5">
+
+<!-- End Automatic Metadata Insertion -->
+
+
+
+
+        <link href="../../../../OcwWeb/style/main.css" type="text/css" rel="stylesheet" />
+
+
+        <link href="../../../../OcwWeb/style/core.css" type="text/css" rel="stylesheet" />
+
+
+        <link rel="metadata" type="application/rdf+xml" href="../../../../OcwWeb/xml/ocwcc.rdf" />
+
+
+         
+
+
+        
+
+
+         
+
+
+         
+
+
+    </head>
+
+
+    <body id="global"  >
+
+
+        <form method="get" action="../../..../../../../OcwWeb/search/AdvancedSearch.htm">
+
+
+<input type="hidden" name="__EVENTTARGET" value="" />
+
+
+<input type="hidden" name="__EVENTARGUMENT" value="" />
+
+
+
+
+
+
+
+
+<script language="javascript" type="text/javascript">
+
+
+<!--
+
+
+	function __doPostBack(eventTarget, eventArgument) {
+
+
+		var theform = document.CourseHomePage;
+
+
+		theform.__EVENTTARGET.value = eventTarget;
+
+
+		theform.__EVENTARGUMENT.value = eventArgument;
+
+
+		theform.submit();
+
+
+	}
+
+
+// -->
+
+
+</script>
+
+
+
+
+<script language="javascript" type="text/javascript">
+
+<!--
+
+   var __CMS_PostbackForm = document.CourseHomePage;
+
+   var __CMS_CurrentUrl = "/OcwWeb/templates/section/GenericOther.aspx?NRMODE=Published&NRORIGINALURL=%2fOcwWeb%2fElectrical-Engineering-and-Computer-Science%2f6-341Fall-2005%2fExams%2findex%2ehtm&NRNODEGUID=%7b8F119BE9-B68C-40BA-B2FE-E991CE9BD2F8%7d&NRCACHEHINT=Guest";
+
+   
+
+// -->
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+            <noscript>
+
+
+                <div>
+
+
+ 
+
+
+                </div>
+
+
+            </noscript>
+
+
+                <div class="wrapper">
+
+
+                    <a href="#main" class="skip" tabindex="-1">skip to content</a> <a id="top"></a>
+
+
+                    <!-- begin horizontal 100% wide area -->
+
+
+                    <div class="wide">
+
+
+                        
+
+
+<!-- padding on the outer wide div causes horizontal scroll, hence nested header div -->
+
+
+
+
+
+	<div class="header-redline"> 
+
+
+
+
+
+		<div class="header"><a href="http://ocw.mit.edu/OcwWeb/index.htm"><img src="../../../../OcwWeb/images/logo-ocw-home.gif" alt="MIT OpenCourseWare" width="180" height="21" /></a>
+
+
+		</div><!-- end header div -->
+
+
+
+
+
+    	<div class="sitetools">
+
+
+        <!-- make sure there's no spaces between li tags -->
+
+
+        <ul><li><a href="http://ocw.mit.edu/OcwWeb/index.htm"><img src="../../../../OcwWeb/images/ocw-home.gif" alt="OCW home" width="61" height="12" align="center" /></a></li><li><a href="http://ocw.mit.edu/OcwWeb/Global/all-courses.htm"><img src="../../../../OcwWeb/images/course-list.gif" alt="Course List" width="79" height="12" align="center" /></a></li><li><a href="http://ocw.mit.edu/OcwWeb/Global/AboutOCW/about-ocw.htm"><img src="../../../../OcwWeb/images/about-ocw.gif" alt="about OCW" width="74" height="12" align="center" /></a></li><li><a href="http://ocw.mit.edu/OcwWeb/Global/OCWHelp/help.htm"><img src="../../../../OcwWeb/images/help.gif" alt="Help" width="36" height="12" align="center" /></a></li><li><a href="../../../../OcwWeb/jsp/feedback.jsp?Referer="><img src="../../../../OcwWeb/images/feedback.gif" alt="Feedback" width="61" height="12" align="center" /></a></li><img src="../../../../OcwWeb/images/button6.gif" width="20" height="1" align="center" alt=""><a href="http://ocw.mit.edu/OcwWeb/Global/AboutOCW/ocwdonor.htm"><img src="../../../../OcwWeb/images/give_now_button.jpg" alt="Support MIT OCW" border="0" width="147" height="42" align="center"></a></ul>
+
+
+		</div><!-- end sitetools div -->
+
+
+
+
+
+	</div><!-- end header-redline -->
+
+
+                    </div> <!-- end wide div -->
+
+
+                    <div class="outer">
+
+
+                        <div class="inner">
+
+
+                            <div class="left">
+
+
+                                    <!-- Console -->
+
+
+                                    
+
+
+<script language="javascript" type="text/javascript">
+
+
+<!--
+
+
+function MM_openBrWindow(theURL,winName,features) { 
+
+
+
+
+
+window.open(theURL,winName,features);
+
+
+
+
+
+}
+
+
+// -->
+
+
+</script>
+
+
+
+
+
+                                    
+
+
+	<!-- begin search area, inputs are placed inside div blocks to validate xhtml strict -->
+
+
+	<div class="searchform">
+
+
+		<div>
+
+
+			<input type="hidden" name="site" value="mit" /> 
+
+
+			<input type="hidden" name="client" value="mit" />
+
+
+			<input type="hidden" name="getfields" value="*" />
+
+
+			<input type="hidden" name="output" value="xml_no_dtd" /> 
+
+
+			<input type="hidden" name="proxystylesheet" value="http://ocw.mit.edu/OcwWeb/search/google-ocw.xsl" />
+
+
+			<input type="hidden" name="proxyreload" value="1" /> 
+
+
+			<input type="hidden" name="as_dt" value="i" />
+
+
+			<input type="hidden" name="restrict" value="ocw" /> 
+
+
+			<input type="hidden" name="departmentName" value="Electrical Engineering and Computer Science" />
+
+
+			<input type="hidden" name="courseName" value="" />
+
+
+		</div>
+
+
+		<h2><label for="terms">Search</label></h2>
+
+
+		<div>
+
+
+			<input type="text" name="q" id="terms" size="15" maxlength="255" value="" /> <input type="image" src="../../../../OcwWeb/images/go.gif" name="btnG" alt="go" /></div>
+
+
+		<div>&raquo; <a href="../../../../OcwWeb/search/AdvancedSearch.htm">Advanced Search</a></div>
+
+
+	</div>
+
+
+	<!-- end search area -->
+
+
+
+
+
+<!-- AE3305: Commented out: <table id="CourseLeftNav1_tblLeftNav" border="0">
+
+
+
+
+
+</table> -->
+
+
+<!-- LeftNav -->
+
+
+<div class="left-nav">
+
+
+<ul>
+
+<li>
+
+<div>
+
+<img src="../../../../OcwWeb/images/whitearrow.gif" width="4" height="7" alt="" /><a href="../../../../OcwWeb/Electrical-Engineering-and-Computer-Science/6-341Fall-2005/CourseHome/index.htm">Course Home</a></div>
+
+</li>
+
+<li>
+
+<div>
+
+<img src="../../../../OcwWeb/images/whitearrow.gif" width="4" height="7" alt="" /><a href="../../../../OcwWeb/Electrical-Engineering-and-Computer-Science/6-341Fall-2005/Syllabus/index.htm">Syllabus</a></div>
+
+</li>
+
+<li>
+
+<div>
+
+<img src="../../../../OcwWeb/images/whitearrow.gif" width="4" height="7" alt="" /><a href="../../../../OcwWeb/Electrical-Engineering-and-Computer-Science/6-341Fall-2005/Readings/index.htm">Readings</a></div>
+
+</li>
+
+<li>
+
+<div>
+
+<img src="../../../../OcwWeb/images/whitearrow.gif" width="4" height="7" alt="" /><a href="../../../../OcwWeb/Electrical-Engineering-and-Computer-Science/6-341Fall-2005/LectureNotes/index.htm">Lecture Notes</a></div>
+
+</li>
+
+<li>
+
+<div>
+
+<img src="../../../../OcwWeb/images/whitearrow.gif" width="4" height="7" alt="" /><a href="../../../../OcwWeb/Electrical-Engineering-and-Computer-Science/6-341Fall-2005/Assignments/index.htm">Assignments</a></div>
+
+</li>
+
+<li>
+
+<div class="on">
+
+<img src="../../../../OcwWeb/images/redarrow.gif" width="4" height="7" alt="" /><a href="../../../../OcwWeb/Electrical-Engineering-and-Computer-Science/6-341Fall-2005/Exams/index.htm">Exams</a></div>
+
+</li>
+
+<li>
+
+<div>
+
+<img src="../../../../OcwWeb/images/whitearrow.gif" width="4" height="7" alt="" /><a href="../../../../OcwWeb/Electrical-Engineering-and-Computer-Science/6-341Fall-2005/Projects/index.htm">Projects</a></div>
+
+</li>
+
+<li>
+
+<div>
+
+<img src="../../../../OcwWeb/images/whitearrow.gif" width="4" height="7" alt="" /><a href="../../../../OcwWeb/Electrical-Engineering-and-Computer-Science/6-341Fall-2005/DownloadthisCourse/index.htm">Download this Course</a></div>
+
+</li>
+
+</ul>
+
+
+
+
+</div> 
+
+
+<!-- End LeftNav -->
+
+
+                            </div>
+
+
+                                <div class="center">
+
+
+                                        <!-- margin and padding on center div causes content to start after nav ends -->
+
+
+                                        <div class="maincontent"><a id="main"></a>
+
+
+                                                <div class="bread-crumb">&nbsp;&raquo;&nbsp;<a href="http://ocw.mit.edu/OcwWeb/index.htm">MIT OpenCourseWare</a>&nbsp;&raquo;&nbsp;<a href="http://ocw.mit.edu/OcwWeb/Electrical-Engineering-and-Computer-Science/index.htm">Electrical Engineering and Computer Science</a>&nbsp;&raquo;&nbsp;<a href="../../../../OcwWeb/Electrical-Engineering-and-Computer-Science/6-341Fall-2005/CourseHome/index.htm">Discrete-Time Signal Processing, Fall 2005</a>
+
+</div>
+
+
+                                                <h1>Exams</h1>
+
+
+                                                
+
+
+                                                <div class="mod8">
+
+
+                                                <div class="bodycopy" id="BodyCopy1">
+
+
+	<p class="instruction">This section contains documents created from scanned original files, which are inaccessible to screen reader software. A "#" symbol is used to denote such documents.</p>
+
+
+
+
+
+<p>This section contains current exams as well as previous exams to aid the student in their preparation.</p>
+
+
+
+
+
+<br />
+
+
+<div class="maintabletemplate">
+
+
+<table class="tablewidth3" summary="See table caption for summary.">
+
+
+<caption class="invisible">Course exam files.</caption>
+
+
+
+
+
+<!-- BEGIN TABLE HEADER (for MIT OCW Table Template 2.51) -->
+
+
+<thead>
+
+
+<tr>
+
+
+<th scope="col">EXAMS</th>
+
+
+<th scope="col">SOLUTIONS</th>
+
+
+</tr>
+
+
+</thead>
+
+
+
+
+
+<!-- END TABLE HEADER -->
+
+
+<tbody>
+
+
+<tr class="gray-row">
+
+
+<td colspan="2"><strong>Fall 2005</strong></td>
+
+
+</tr>
+
+
+
+
+
+<tr class="white-row">
+
+
+<td>Background Exam (<a href="../../../../NR/rdonlyres/Electrical-Engineering-and-Computer-Science/6-341Fall-2005/4438CF50-B1A5-49C2-AEB1-73E7256DC52E/0/backexam.pdf">PDF</a>)</td>
+
+
+<td>(<a href="../../../../NR/rdonlyres/Electrical-Engineering-and-Computer-Science/6-341Fall-2005/C8114B0D-3FA9-4C2D-B507-E6C656678A06/0/backexam_soln.pdf">PDF</a>)</td>
+
+
+</tr>
+
+
+
+
+
+<tr class="gray-row">
+
+
+<td>Midterm Exam (<a href="../../../../NR/rdonlyres/Electrical-Engineering-and-Computer-Science/6-341Fall-2005/2FAA6C34-31C4-4FC3-B2C1-EBB75C92CD0E/0/midexam.pdf">PDF</a>)</td>
+
+
+<td>(<a href="../../../../NR/rdonlyres/Electrical-Engineering-and-Computer-Science/6-341Fall-2005/244BA331-167F-463A-A10C-FCD390D067A8/0/midexam_soln.pdf">PDF</a>)</td>
+
+
+</tr>
+
+
+
+
+
+<tr class="white-row">
+
+
+<td>Final Exam (<a href="../../../../NR/rdonlyres/Electrical-Engineering-and-Computer-Science/6-341Fall-2005/715D161A-B51D-46D5-B734-B6E7B2DE8748/0/final_fall05.pdf">PDF</a>)</td>
+
+
+<td>(<a href="../../../../NR/rdonlyres/Electrical-Engineering-and-Computer-Science/6-341Fall-2005/F6B7C770-20F4-47AA-9DE0-DDC1EE717DB1/0/final_f05_soln.pdf">PDF</a>)<sup>#</sup></td>
+
+
+</tr>
+
+
+
+
+
+<tr class="gray-row">
+
+
+<td colspan="2"><strong>Fall 2004</strong></td>
+
+
+</tr>
+
+
+
+
+
+<tr class="white-row">
+
+
+<td>Background Exam (<a href="../../../../NR/rdonlyres/Electrical-Engineering-and-Computer-Science/6-341Fall-2005/F384EDDB-C1CC-42DA-B4B3-6CB9AD066346/0/backexam_fall04.pdf">PDF</a>)</td>
+
+
+<td>(<a href="../../../../NR/rdonlyres/Electrical-Engineering-and-Computer-Science/6-341Fall-2005/8160427A-1767-4EC7-8C8D-694539A5ED31/0/backexam_f04_sol.pdf">PDF</a>)</td>
+
+
+</tr>
+
+
+
+
+
+<tr class="gray-row">
+
+
+<td>Midterm Exam (<a href="../../../../NR/rdonlyres/Electrical-Engineering-and-Computer-Science/6-341Fall-2005/9901AAC5-BB30-48BE-859B-3594D02B8DE7/0/midexam_fall04.pdf">PDF</a>)</td>
+
+
+<td>(<a href="../../../../NR/rdonlyres/Electrical-Engineering-and-Computer-Science/6-341Fall-2005/29349D8C-2D78-490A-84FA-66A7A4F587F3/0/midexam_f04_soln.pdf">PDF</a>)<sup>#</sup></td>
+
+
+</tr>
+
+
+
+
+
+<tr class="white-row">
+
+
+<td>Final Exam (<a href="../../../../NR/rdonlyres/Electrical-Engineering-and-Computer-Science/6-341Fall-2005/64427E9A-D848-4654-BCAE-9036840AB9AE/0/final_fall04.pdf">PDF</a>)<sup>#</sup></td>
+
+
+<td>(<a href="../../../../NR/rdonlyres/Electrical-Engineering-and-Computer-Science/6-341Fall-2005/B0FD30E6-6D31-4F49-B03F-E270FD41297A/0/final_fall04_sol.pdf">PDF</a>)<sup>#</sup></td>
+
+
+</tr>
+
+
+
+
+
+<!-- TEN ROWS --></tbody>
+
+
+</table>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+                                                </div>
+
+
+                                                
+
+
+                                                <div class="clear"></div>
+
+
+                                                
+
+
+&nbsp;
+
+
+
+
+
+                                        </div> <!-- end maincontent div -->
+
+
+                                </div> <!-- end center div -->
+
+
+                                <div class="clear"></div>
+
+
+                            </div><!-- end inner div -->
+
+
+                        </div><!-- end outer div -->
+
+
+                        <!-- begin horizontal 100% wide area -->
+
+
+                        <div class="wide">
+
+
+                            <div class="logo"><a href="http://mit.edu"><img src="../../../../OcwWeb/images/mit-logo.gif" alt="" width="38" height="21" /></a></div>
+
+
+                            <!-- padding on outer wide div causes horizontal scroll, hence nested footer div -->
+
+
+                            
+
+
+
+
+
+<!--
+
+
+
+
+
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+
+
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+
+
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+
+<Work rdf:about="">
+
+
+   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/" />
+
+
+</Work>
+
+
+
+
+
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/">
+
+
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+
+
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+
+
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+
+
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+
+
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+
+
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+
+
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+
+
+</License>
+
+
+
+
+
+</rdf:RDF>
+
+
+
+
+
+-->
+
+
+
+
+
+<div class="foot-wrap">
+
+
+
+
+
+	<div class="page-footer">
+
+
+
+
+
+			<div class="float-right"><a href="http://creativecommons.org/licenses/by-nc-sa/2.5/" target="_blank" class="first"><img src="../../../../OcwWeb/images/cc_button.jpg" alt="Creative Commons - some rights reserved" border="0" width="88" height="31"></a></div>
+
+
+	
+
+
+	<ul><li><a href="http://web.mit.edu/" class="first">Massachusetts Institute of Technology &copy; 2005 MIT</a></li><li><a href="../../../../OcwWeb/Global/privacy.htm">Privacy</a></li><li><a href="../../../../OcwWeb/Global/terms-of-use.htm">Legal Notices</a></li></ul>
+
+
+	
+
+
+	<p>Your use of the MIT OpenCourseWare site and course materials is subject to the conditions and terms of use in our Legal Notices section.</p></div><!-- end page-footer div -->
+
+
+
+
+
+</div><!-- end foot-wrap div -->
+
+
+                        </div>
+
+
+                        <!-- end wide div -->
+
+
+                </div> <!-- end wrapper div -->	
+
+
+                <!--</div>--><!-- added extra div for formatting -->		
+
+
+            </form>
+
+
+    </body>
+
+
+</html>
+
+
