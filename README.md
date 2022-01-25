@@ -3,10 +3,12 @@ Convolution in Julia and JuPyter Notebooks" -- Margaret Schedel and Perrin meyer
 
 JuPyter Notebooks:
 
-key1.ipynb
-key2.ipynb
-key3.ipynb
-key4OVS.ipynb
+1. key1.ipynb
+2. key2.ipynb
+3. key3.ipynb
+4. key4OVS.ipynb
+
+
 
 
 
